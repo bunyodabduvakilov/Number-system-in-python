@@ -22,7 +22,7 @@ class number_system:
             print(f"\nbinary: {bin(int(str(self.number), self.system1))}")
             print(f"\noctal: {oct(int(str(self.number), self.system1))}")
             print(f"\ndecimal: {int(str(self.number), self.system1)}")
-            print(f"\nO'n oltilikda: {hex(int(str(self.number), self.system1))}")
+            print(f"\nhexadecimal: {hex(int(str(self.number), self.system1))}")
         else:
             return "input error !!!"
 
